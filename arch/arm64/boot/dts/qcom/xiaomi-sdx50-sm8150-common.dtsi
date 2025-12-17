@@ -312,8 +312,8 @@
 	/* ESR fast calibration */
 	qcom,fg-esr-timer-chg-fast = <0 7>;
 	qcom,fg-esr-timer-dischg-fast = <0 7>;
-	qcom,fg-esr-timer-chg-slow = <0 96>;
-	qcom,fg-esr-timer-dischg-slow = <0 96>;
+	qcom,fg-esr-timer-chg-slow = <0 99>;
+	qcom,fg-esr-timer-dischg-slow = <0 99>;
 	qcom,fg-esr-cal-soc-thresh = <26 230>;
 	qcom,fg-esr-cal-temp-thresh = <10 40>;
 };
