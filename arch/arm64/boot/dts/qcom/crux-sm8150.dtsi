@@ -288,10 +288,10 @@ And public attribution of xiaomi platforms(like F1X and so and)
 	/* ESR fast calibration */
 	qcom,fg-esr-timer-chg-fast = <0 7>;
 	qcom,fg-esr-timer-dischg-fast = <0 7>;
-	qcom,fg-esr-timer-chg-slow = <0 99>;
-	qcom,fg-esr-timer-dischg-slow = <0 99>;
+	qcom,fg-esr-timer-chg-slow = <0 96>;
+	qcom,fg-esr-timer-dischg-slow = <0 96>;
 	qcom,fg-esr-cal-soc-thresh = <26 230>;
-	qcom,fg-esr-cal-temp-thresh = <10 40>;
+	qcom,fg-esr-cal-temp-thresh = <10 50>;
 };
 
 &vendor {
@@ -319,9 +319,9 @@ And public attribution of xiaomi platforms(like F1X and so and)
 	qcom,sec-charger-config = <1>;
 	qcom,usb-icl-ua = <4000000>;
 	qcom,fcc-max-ua = <8000000>;
-	qcom,fv-max-uv = <4400000>;
+	qcom,fv-max-uv = <4480000>;
 	qcom,dc-icl-ua = <500000>;
-	qcom,auto-recharge-vbat-mv = <4350>;
+	qcom,auto-recharge-vbat-mv = <4380>;
 	qcom,step-charging-enable;
 	qcom,sw-jeita-enable;
 	qcom,chg-term-src = <1>;
@@ -386,7 +386,6 @@ And public attribution of xiaomi platforms(like F1X and so and)
 				= <2200000 1400000 1300000 1200000 700000 600000 500000
 				   400000 400000  400000  400000  400000  400000  400000
 				   400000  400000>;
-	qcom,thermal-mitigation-voice = <0x5b8d80 0x2191c0 0x2191c0 0xf4240 0xf4240 0xc3500 0xc3500 0xc3500 0xc3500 0xaae60 0xaae60 0x927c0 0x927c0 0x927c0 0x7a120 0x61a80>;
 
 	io-channels = <&pm8150b_vadc ADC_MID_CHG_DIV6>,
 		      <&pm8150b_vadc ADC_USB_IN_V_16>,
@@ -758,7 +757,7 @@ And public attribution of xiaomi platforms(like F1X and so and)
 		compatible = "ti,bq27z561";
 		reg = <0x55>;
 		bq,charge-full-design = <4000000>;
-		bq,recharge-voltage   = <4350>;
+		bq,recharge-voltage   = <4380>;
 		bq,shutdown-delay-enable;
 		bq,soc_decimal_rate = <
 			0  38
