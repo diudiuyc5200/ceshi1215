@@ -394,7 +394,7 @@ And public attribution of xiaomi platforms(like F1X and so and)
 		      <&pm8150b_vadc ADC_SBUx>,
 		      <&pm8150b_vadc ADC_VPH_PWR>,
 		      <&pm8150b_vadc ADC_CHG_TEMP>,
-		      <&pm8150b_vadc ADC_AMUX_THM3_PU2>;
+		      <&pm8150b_vadc ADC_AMUX_THM3_PU2>,
               <&pm8150l_vadc ADC_GPIO1_PU2>,
 		       <&pm8150l_vadc ADC_GPIO2_PU2>;
 
